@@ -52,7 +52,7 @@ def main():
    """
     st.markdown(html_temp,unsafe_allow_html=True)
     st.header("Passenger Survived Prediction using KNN And NB")
-    <center><p style="font-size:25px;color:white;margin-top:10px;"Machine Learning Lab Experiment</p></center>
+    
   
     Sex = st.number_input('Insert 1 for Male 2 for Female 3 Others',1,3)
     Age = st.number_input('Insert a Age',18,60)
@@ -70,7 +70,7 @@ def main():
       st.success('Naive Bayes Model has predicted {}'.format(result))
       
     if st.button("About"):
-      st.subheader("Developed by Priyanshu Jain")
+      st.subheader("Developed by Shruti Jain")
       st.subheader("Department of Computer Engineering")
 
 if __name__=='__main__':
